@@ -9,7 +9,7 @@ mycursor=con.cursor()
 root = ctk.CTk()
 
 
-root.title("CBRE_KEYISGHT")
+root.title("CBRE")
 root.geometry("1920x1080-10+0+10")
 ctk.set_appearance_mode("system")
 
@@ -20,7 +20,7 @@ t3=tabview.add("Profile")
 tabview.set("Profile")
 
 
-logo = ctk.CTkLabel(root,text="KEYSIGHT SPACE DATA MANAGEMENT",anchor="center",text_color="RED",corner_radius=40,height=50,width=200,font=('Abadi',50,'bold'))
+logo = ctk.CTkLabel(root,text="SPACE DATA MANAGEMENT",anchor="center",text_color="RED",corner_radius=40,height=50,width=200,font=('Abadi',50,'bold'))
 logo.pack(padx=5,pady=5)
 
 #code for Frame
